@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipak's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/f0fe892cb5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+           <div class="left">
+            <!-- <img src="./images/deep1.jpeg"> -->
+            <h4>Dipak's Portfolio</h4>
+           </div>
+           <div class="right">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+           </div>
+        </nav>
+    </header>
+    <main >
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My Name is <span class="purple">Dipak</span>
+                <div>From Bidar,Karnataka</div> 
+                <div>and I am a  passionate </div> 
+                <div id="element"></div>
+            </div>
+            <div class="rightsection">
+                <img src="./images/dip5.jpg.png">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Full Stack Web Developer'],
+          typeSpeed: 60,
+        });
+      </script>
+    <script src="./script.js"></script>
+   
+    <!-----------------about------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/deep1.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Build a long-term career in a conductive and progressive
+                        organizational environment which provides wider
+                        exposure for continuous learning process with ample
+                        opportunities for future career growth. To use my skills
+                        and techniques in the best possible way for achieving the
+                        company's goals and increases its profitability and
+                        growth.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contens active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web Application</li>
+                            <li><span>Front End Development</span><br>Web App Development</li>
+                            <!-- <li><span>App Development</span><br>BuildingAndroid/IOS apps</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contens" id="Experience">
+                        <ul>
+                            <li><span>Web Developer</span><br>Designing Web Application<br>Intern-Compsoft Technologies<br>
+                            September'21- October'21</li>
+                           
+                            <li><span>Full Stack Web Developer</span><br>Building Web Application<br>FullTime-CSG<br>1-Aug-2022 To Present</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contens" id="Education">
+                        <ul>
+                            <li><span>B.E. Computer Science</span><br>BMS Institute of Technology & Management, Banglore 2019-2022</li>
+                            <li><span>Diploma Computer Science</span><br>Basavakalyan Polytechnic, Basavakalyan 2016-2019</li>
+                            <li><span>Class 12th HSC</span><br>Sree Chatarapati Shivaji College Omerga 2016</li>
+                            <li><span>Class 10th MSBSHSE</span><br>Shri Dnyaneshwar Vidyalaya,Turor 2014</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------services--------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX</h2>
+                    <p>A UI UX designer is a professional who identifies new opportunities to create better user experiences. Aesthetically pleasing branding strategies help them effectively reach more customers. They also ensure that the end-to-end journey with their products or services meets desired outcomes.!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Development</h2>
+                    <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Web Design</h2>
+                    <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience. User experience is central to the web designing process. !</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------Portfolio-------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/img1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Front End Development</h3>
+                       <p>Everything you see on a website, like buttons, links, animations, and more, were created by a front end web developer. It is the front end developer's job to take the vision and design concept from the client and implement it through code..</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/img2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Back End Development</h3>
+                       <p>Web development activities that are done at the back end of programs are referred to as back end development. Back-end development covers server-side web application logic and integration and activities, like writing APIs, creating libraries, and working with system components instead of frontend development, which focuses on customer-facing services and programs.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/img3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Full Stack Development</h3>
+                       <p>A full-stack developer is a developer or engineer who can build both the front end and the back end of a website. The front end (the parts of a website a user sees and interacts with) and the back end (the behind-the-scenes data storage and processing) require different skill sets..</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!--------------------------------contact------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title1">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>dipakade757@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>8296662084</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./images/CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="copyright">
+        <p>copyright ©2023; Made with <i class="fa-solid fa-heart"></i> By Mr.Dipak</p>
+    </div>
+</body>
+</html>
